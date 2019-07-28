@@ -1,0 +1,50 @@
+## Basic Configuration
+baseURL = "https://www.jvalecillos.net/"
+languageCode = "en-us"
+
+title = "Jose Valecillos"
+theme = "hyde-hyde"
+
+## Site Settings
+[params]
+    author = "Jose Valecillos"
+    title = "Jose's Blog"
+    description = "World on a wire"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "jvalecillos"
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+
+    #themeColor = "theme-base-08"
+    layoutReverse = false
+
+## Social Accounts
+[params.social]
+    github = "jvalecillos"
+    linkedin = "jvalecillos"
+    twitter = "jvalecillos"
+    gravatar = "valecillosjg@gmail.com"
+
+## Main Menu
+# [[menu.main]]
+#     name = "Posts"
+#     weight = 100
+#     identifier = "posts"
+#     url = "/posts/"
+# [[menu.main]]
+#     name = "Portfolio"
+#     identifier = "portfolio"
+#     weight = 200
+#     url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
