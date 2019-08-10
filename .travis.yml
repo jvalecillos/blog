@@ -5,8 +5,13 @@ language: go
 go:
   - 1.12.7
 
-install:
-  - go get github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
+# install:
+#   - go get github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
+
+addons:
+  snaps:
+    - name: hugo
+      channel: extended/stable # will be passed to --channel flag
 
 script:
   - hugo # This commands builds your website on travis
