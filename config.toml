@@ -32,12 +32,12 @@ theme = "hyde-hyde"
     twitter = "jvalecillos"
     gravatar = "valecillosjg@gmail.com"
 
-## Main Menu
-# [[menu.main]]
-#     name = "Posts"
-#     weight = 100
-#     identifier = "posts"
-#     url = "/posts/"
+# Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
 # [[menu.main]]
 #     name = "Portfolio"
 #     identifier = "portfolio"

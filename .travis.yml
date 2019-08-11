@@ -1,5 +1,8 @@
 dist: bionic
 
+git:
+  depth: 1
+
 language: go
 
 go:
