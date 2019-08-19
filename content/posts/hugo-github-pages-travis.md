@@ -4,7 +4,7 @@ date: 2019-08-10
 summary: This tutorial will show how to create your own blog, personal site, portfolio or landing page in [GitHub Pages](https://pages.github.com/) using [Hugo](https://gohugo.io/) and how to automate the process with [Travis CI](https://travis-ci.com/).
 categories: ["golang", "ci/cd"]
 tags: ["golang", "hugo", "github", "ci/cd"]
-highlightjslanguages: ["bash", "yaml", "toml"]
+highlightjslanguages: ["yaml"]
 ---
 
 This tutorial will show how to create your own blog, personal site, portfolio or landing page in [GitHub Pages](https://pages.github.com/) using [Hugo](https://gohugo.io/) and how to automate the process with [Travis CI](https://travis-ci.com/).
@@ -110,7 +110,7 @@ In the settings for the repository in Travis CI, configure an environment variab
 
 - Create a `.travis.yml` file in the root of the `blog` repository with the following configuration (for more information check [Travis CI GitHub Pages Deployment](https://docs.travis-ci.com/user/deployment/pages/)):
 
-```yml
+```yaml
 dist: bionic # Ubuntu distribution
 
 language: go # programming language
