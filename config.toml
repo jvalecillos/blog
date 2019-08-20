@@ -5,6 +5,8 @@ languageCode = "en-us"
 title = "Jose Valecillos"
 theme = "hyde-hyde"
 
+googleAnalytics = "UA-146090090-1"
+
 ## Site Settings
 [params]
     author = "Jose Valecillos"
